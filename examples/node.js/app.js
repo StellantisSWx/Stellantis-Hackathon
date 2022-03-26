@@ -1,4 +1,14 @@
+/*
+Stellantis SDK example
+Substitute values with your API and connected vehicle credentials
+Please refer to LICENSE.MD for licensing details
+You need a Stellantis SDK account and Stellantis North America connected vehicle to use this code,
+please refer to https://developers.stellantis.com/docs.html for details
+*/
+
 const axios = require("axios").default;
+
+
 
 const API_KEY = "your_api_key_here";
 const API_USERNAME = "your_api__account_username_here";
@@ -32,6 +42,7 @@ function setBearerToken(bearerToken) {
     });
 }
 
+//retrieves last known value of each vehicle sensor obtained, with label, value and timestamp
 async function getLastKnownData(vin) {
     try {
         return await space_sdk.get(`/v1/${vin}/data/lastknown`);
@@ -40,6 +51,7 @@ async function getLastKnownData(vin) {
     }
 }
 
+//retrieves all data collected from vehicle in past 24 hours
 async function getTwentyFourHourData(vin) {
     try {
         return await space_sdk.get(`/v1/${vin}/data`);
@@ -48,6 +60,8 @@ async function getTwentyFourHourData(vin) {
     }
 }
 
+//sends commands to vehicle
+//available commands are  "LOCK, UNLOCK, START, STOP, HORNS"
 async function postRemoteCommand(vin, pin, command) {
     try {
         return await space_sdk.post(`/v1/${vin}/remote`, {
