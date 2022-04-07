@@ -4,4 +4,4 @@
 
 - [Read the docs](https://developers.stellantis.com/docs.html)
 
-- [Contact us](mailto:charlie.cross@stellantis.com)
+- [Contact us](mailto:kirti.gedela@stellantis.com)
