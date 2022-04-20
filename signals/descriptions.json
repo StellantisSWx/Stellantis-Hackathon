@@ -28,7 +28,7 @@
     "ExteriorTemperature": "Temperature outside the vehicle.",
     "FrontFogLightSts": "Indicates if the front fog lights are on",
     "FuelLvlLow": "Indicates if fuel level is low enough to inform customer.",
-    "Gas_Range": "Estimation of remaining miles left until fuel runs out.",
+    "Gas_Range": "Estimation of remaining km left until fuel runs out.",
     "IgnOffTime": "Time the vehicle's engine has been off for.",
     "InstantFuelEcon": "Fuel economy at the current RPM - use Gas_Range for reliable results",
     "Lane_Sense_Stat": "Indicates if lanesense feature is activated",
