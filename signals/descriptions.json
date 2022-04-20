@@ -66,11 +66,10 @@
     "VehSpd_MPH": "Indicates if the vehicle speed display is in MPH (vs KMPH)",
     "LowWasherFluid": "Indicates if the washer fluid is low enough to inform customer.",
     "WakeupReason": "To be determined",
-    "Wheel Pulse" : "To be determined",
-    "Pitch Angle" : "Indicates the pitch angle (up/down) of the vehicle",
+    "WheelPulse" : "To be determined",
+    "PitchAngle" : "Indicates the pitch angle (up/down) of the vehicle",
     "LanguageSelected" : "Indicates the language of the user in the vehicle (English = 1)",
     "AirSuspensionStatus" : "The level of the air suspension (low = 1, high / offroad = 5)",
     "WinPos_D_Sts": "Indicates percentage open status of the driver-side window.",
-    "WinPos_P_Sts": "Indicates percentage open status of the passenger-side window.",
-    "uptime": "cumulative time that the vehicle has run (app runtime)"
+    "WinPos_P_Sts": "Indicates percentage open status of the passenger-side window."
 }
